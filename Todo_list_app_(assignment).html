@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Welcome</title>
+	<style>
+		*{
+			padding: 0;
+			margin:0;
+			font-family:cursive;
+		}
+		form {
+			border:1px solid black;
+			width:45%;
+			padding:50px 20px;
+			margin:20% 25%;
+
+		}
+		h2{
+			text-align:center;
+		}
+		span{
+			font-weight:bold;
+		}
+		div{
+			height: 100%;
+    		width: 50%;
+    		background-color: powderblue;
+    		margin:70px 270px;
+    		padding:30px;
+    		border-radius: 20px;
+    		
+		}
+		input{
+			border-radius:;
+			border-color:;
+			outline-color:;
+
+			
+
+
+		}
+		input:hover{
+			background-color: #ffff80;
+			
+			box-shadow: 20px;
+
+		}
+		a{
+			text-decoration:none;
+			color:black;
+			/*display: block;
+*/			margin-top:50px;
+			font-size:12px;
+		}
+		a:hover{
+			text-decoration: underline;
+		}
+		button{
+			
+			padding:3px;
+			margin:20px 45px;
+			font-weight:bold;
+			border-radius: 5px;
+			border-color: none;
+
+		}
+		button:hover{
+			box-shadow: 5px 5px 8px #888888;
+		}
+	</style>
+</head>
+<body>
+
+	<div>
+		<form method="POST" action="http://localhost/Php%20files/To_Do_list_app/Sign_in.php">
+			<h2>Your To do List</h2><br>
+			<span>User ID </span><input type="text" placeholder="Your ID" name="UserID"><br><br>
+			<span>Password </span><input type="password" name="Password">
+			<button name="click" value="click">Sign In</button>
+			<a href="Todo_list_app_sign_up.htm" target="_blank">New User? Sign Up</a>
+		</form>
+
+	</div>
+
+</body>
+</html>
